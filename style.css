@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.board {
+    background-color: rgb(91, 91, 94);
+    height: 120vh;
+    width: 120vw;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    justify-content: center;
+    align-content: center;
+
+}
+
+.box {
+    height: 120px;
+    width: 120px;
+    background-color: blanchedalmond;
+
+}
+
+#animal {
+    width: 115px;
+    height: 115px;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+#text {
+    font-size: 30px;
+    margin: 10px;
+}
