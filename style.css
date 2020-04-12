@@ -1,35 +1,75 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url("./assets/images.jpg");
 }
 
 .board {
-    background-color: rgb(91, 91, 94);
-    height: 120vh;
-    width: 120vw;
-    display: grid;
-    grid-template-columns: repeat(5, auto);
-    justify-content: center;
-    align-content: center;
 
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  justify-content: center;
+  align-content: center;
+}
+
+#time {
+  color: rgb(245, 238, 237);
 }
 
 .box {
-    height: 120px;
-    width: 120px;
-    background-color: blanchedalmond;
-
+  height: 100px;
+  width: 100px;
+  background-color: blanchedalmond;
 }
 
 #animal {
-    width: 115px;
-    height: 115px;
-    border-radius: 5px;
-    align-items: center;
-    text-align: center;
+  width: 95px;
+  height: 95px;
+  border-radius: 5px;
+  align-items: center;
+  text-align: center;
 }
 
 #text {
-    font-size: 30px;
-    margin: 10px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+#page1 {
+  align-items: center;
+  font-size: 10em;
+  margin-top: 250px;
+  margin-left: 330px;
+  color: orangered;
+  font-style: inherit;
+}
+
+#play_again {
+  height: 50px;
+  width: 100px;
+  margin-left: 700px;
+  background-color: red;
+  border: solid balck;
+  border-radius: 5px;
+}
+
+#play_again_button {
+  height: 50px;
+  width: 100px;
+  margin-left: 1200px;
+  background-color: bisque;
+  color: red;
+  border-radius: 5px;
+}
+
+.game_over {
+  align-items: center;
+  font-size: 10em;
+  margin-top: 250px;
+  margin-left: 330px;
+  color: orangered;
+  font-style: inherit;
 }
